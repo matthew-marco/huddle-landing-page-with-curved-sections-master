@@ -292,7 +292,7 @@ font-family: 'Poppins', sans-serif; */
         margin-bottom: 10px;
     }
     footer .container .colmun-1 .logo{
-        width: 20%;
+        width: 60%;
         margin-top: 50px;
     }
     footer .container .colmun-1 p{
@@ -353,11 +353,15 @@ font-family: 'Poppins', sans-serif; */
         font-size: 18px;
         font-weight: 600;
         font-family: 'open sans', sans-serif; 
+        cursor: pointer;
 
     }
 
 
-
+    main .container a:hover,header .container a:hover,
+    .ready .container a:hover, footer .container .colmun-2 .form form #submit:hover{
+        filter: brightness(120%);
+    }
 
 
 
@@ -511,3 +515,8 @@ font-family: 'Poppins', sans-serif; */
 
             }
          
+
+
+
+
+
